@@ -2,7 +2,7 @@
   "name": "react-cas",
   "version": "0.0.1",
   "description": "CAS",
-  "author": "alancting",
+  "author": "angusleung200",
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
@@ -41,5 +41,13 @@
   ],
   "directories": {
     "test": "test"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angusleung200/react-cas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/angusleung200/react-cas/issues"
+  },
+  "homepage": "https://github.com/angusleung200/react-cas#readme"
 }
