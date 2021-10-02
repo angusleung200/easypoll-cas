@@ -1,7 +1,7 @@
 {
-  "name": "react-cas",
-  "version": "0.0.1",
-  "description": "CAS",
+  "name": "easypoll-cas",
+  "version": "1.0.0",
+  "description": "",
   "author": "angusleung200",
   "license": "MIT",
   "main": "src/index.js",
@@ -37,7 +37,7 @@
     "testURL": "https://mock.testing.com"
   },
   "keywords": [
-    "react-cas"
+    "easypoll-cas"
   ],
   "directories": {
     "test": "test"
