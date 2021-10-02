@@ -105,7 +105,7 @@ const getValidateUrl = (cas, ticket) => {
 
 const _getCasBaseUrl = (cas, withProxyIfExists = false) => {
   if (withProxyIfExists && !util.isEmpty(cas.validation_proxy_path)) {
-    return  util.getFullProtocol(cas.protocol) + cas.endpoint + cas.validation_proxy_path;
+    return  util.getFullProtocol(cas.protocol) + cas.endpoint + cas.path + cas.validation_proxy_path;
   } else {
     return util.getFullProtocol(cas.protocol) + cas.endpoint + cas.path;
   }
