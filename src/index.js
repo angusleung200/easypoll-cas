@@ -32,7 +32,6 @@ class CasClient {
     this.protocol = options.protocol || defaultOptions.protocol;
     this.version = options.version || defaultOptions.version;
     this.validation_proxy_path = options.validation_proxy_path || defaultOptions.validation_proxy_path;
-    this.validation_url = options.validation_url || '';
     this.redirectUrl = util.getCurrentUrl();
   }
 
