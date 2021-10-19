@@ -62,7 +62,7 @@ const getLogoutUrl = (cas, redirectPath = '') => {
 const getValidateUrl = (cas, ticket) => {
   let baseUrl = _getCasBaseUrl(cas, true);
   let queryParams = {
-    service: cas.redirectUrl,
+    service: encodeURIComponent(cas.redirectUrl),
     ticket: ticket,
   };
 
